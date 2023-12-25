@@ -1,0 +1,14 @@
+Database dosyalarını çalıştırmak için adımları takip ediniz...
+
+1.) Çalıştırmak içim MSSql server programına sahip olmanız gerekmektedir.
+
+2.)dovizDB.mdf ve dovizDB_log.ldf dosyalarını indirin. 
+MsSQL Program Files/Microsoft SQL Server/MSSQL16.SQLEXPRESS/MSSQL/DATA içine kopyalayın.
+
+3.) MSSQL'e bağlantıyı kurduktan sonra 'Databases'e' sağ tıklayıp Attach deyin.
+Açılan sayfada mdf file location kısmına az önce eklediğimiz mdf uzantılı dosyayı ekleyin.
+Otomatik olarak gelen log dosyasıyla birilikte 'OK' diyerek yüklemeyi tamamlayın.
+
+4.)Baglanti.cs sınıfında SqlConnection sınıfına kendi MSSQL bağlantı adresini girin.
+Adresi MSSQL açılırken Server name kısmından bulabilirsiniz.
+  
